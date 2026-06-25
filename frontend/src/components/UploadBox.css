@@ -1,0 +1,61 @@
+.upload-box{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:45px;
+
+    border:2px dashed #3B82F6;
+
+    border-radius:15px;
+
+    background:#F8FBFF;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.upload-box:hover{
+
+    background:#EEF6FF;
+
+}
+
+.upload-icon{
+
+    font-size:60px;
+
+    margin-bottom:15px;
+
+}
+
+.upload-box h3{
+
+    margin:5px;
+
+    color:#1B3C59;
+
+}
+
+.upload-box p{
+
+    color:#64748B;
+
+}
+
+.selected{
+
+    margin-top:20px;
+
+    color:#22C55E;
+
+    font-weight:bold;
+
+}

@@ -1,0 +1,49 @@
+.chart-container{
+
+    display:flex;
+
+    gap:30px;
+
+    margin-top:20px;
+
+    align-items:stretch;
+
+}
+
+.chart-card{
+
+    flex:1;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:14px;
+
+    box-shadow:0 8px 18px rgba(0,0,0,0.08);
+
+    transition:0.3s;
+
+}
+
+.chart-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.chart-card canvas{
+
+    max-height:420px;
+
+}
+
+@media(max-width:1000px){
+
+    .chart-container{
+
+        flex-direction:column;
+
+    }
+
+}
